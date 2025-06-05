@@ -88,7 +88,7 @@ public class RocketAndTowerShieldEffectController : MonoBehaviour
         rocket1.gameObject.SetActive(false);
         tower1Explosion.Play();
         towerShield1.SetActive(true);
-
+        FindAnyObjectByType<CameraShake>().Shake();
         float val1 = 25;
         DOTween.To(() => val1, x => val1 = x, 2.5f, .5f)
         .OnUpdate(() =>
@@ -126,7 +126,7 @@ public class RocketAndTowerShieldEffectController : MonoBehaviour
         rocket2.gameObject.SetActive(false);
         tower2Explosion.Play();
         towerShield2.SetActive(true);
-
+        FindAnyObjectByType<CameraShake>().Shake();
         float val1 = 25;
         DOTween.To(() => val1, x => val1 = x, 2.5f, .5f)
         .OnUpdate(() =>

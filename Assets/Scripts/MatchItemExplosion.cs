@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -8,35 +9,27 @@ public class MatchItemExplosion : MonoBehaviour
     [SerializeField] SpriteRenderer tntSprite;
     [SerializeField] SpriteRenderer tntShadowSprite;
     [SerializeField] ParticleSystem tntVfx;
-    [SerializeField] float timeing;
-    [SerializeField] List<SpriteRenderer> explosionEffects;
-
+    [SerializeField] Transform bomb;
 
     private void Start()
     {
         StartCoroutine(OnClick());
     }
 
-
     IEnumerator OnClick()
     {
-        yield return new WaitForSeconds(1);
 
-
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(.65f);
+        var main = tntVfx.main;
+        main.prewarm = true;
         tntVfx.Play();
+
         tntSprite.enabled = false;
         tntShadowSprite.enabled = false;
+       
+        bomb.DOScale(Vector3.one * 3, .2f);
+        yield return new WaitForSeconds(.25f);
+        FindAnyObjectByType<CameraShake>().Shake();
 
-        yield return new WaitForSeconds(timeing);
-
-        foreach (var effect in explosionEffects)
-        {
-            effect.enabled = false;
-            if (effect.GetComponentInChildren<ParticleSystem>())
-            {
-                effect.GetComponentInChildren<ParticleSystem>().Play();
-            }
-        }
     }
 }

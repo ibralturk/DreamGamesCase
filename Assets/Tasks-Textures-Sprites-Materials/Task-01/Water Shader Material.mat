@@ -51,9 +51,9 @@ Material:
     - _QueueOffset: 1
     - _Strength: 2
     m_Colors:
-    - _DeepWaterColor: {r: 0.27843142, g: 0.68469274, b: 1, a: 1}
+    - _DeepWaterColor: {r: 0.27843136, g: 0.68469274, b: 1, a: 1}
     - _Deep_Water_Color: {r: 0.4009434, g: 0.8347709, b: 1, a: 0.7490196}
-    - _ShallowWaterColor: {r: 0.5235849, g: 1, b: 0.9815351, a: 1}
+    - _ShallowWaterColor: {r: 0.52358484, g: 1, b: 0.981535, a: 1}
     - _Shallow_Water_Color: {r: 0.6745283, g: 0.9310253, b: 1, a: 0.5019608}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
