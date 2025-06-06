@@ -22,6 +22,7 @@ Son olarak Art-Dev arasındaki iş akışlarını kolaylaştırmak, olası ihtiy
 Kullanışlı, basit arayüzü ve assetleri topluca hedef-kaynak dosya yollarını belirterek oyun motoruna ekleyebileceğimiz bu tool ile, tek tek eklemekle kaybedilen zamanı telafi etmek istedim arkadaşlarım için.
 Oldukça verimli ve keyifli bir çalışma oldu.
 ![image](https://github.com/user-attachments/assets/39efb311-b087-4b2a-9959-1a50dfc373c2)
+
 Geri bildirimlerinizi ve birlikte çalışma fırsatını heyecanla bekliyorum.
 Saygılarımla,
 İbrahim Altürk
