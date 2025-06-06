@@ -1669,7 +1669,7 @@
     "m_ObjectId": "42b53c9a16de40cca537051984f3194d",
     "m_Title": "Timing&Tiling Group",
     "m_Position": {
-        "x": -3167.000244140625,
+        "x": -3167.0,
         "y": -102.0
     }
 }
@@ -3909,7 +3909,7 @@
     "m_ObjectId": "d33463591245470199848955672cdefb",
     "m_Title": "Gradient-Color-Normal Group",
     "m_Position": {
-        "x": -420.9998779296875,
+        "x": -421.0,
         "y": -87.0
     }
 }
@@ -4717,8 +4717,8 @@
     "m_ObjectId": "fe35a59481b74bb390f2ad8c01c1436d",
     "m_Title": "Wave Group",
     "m_Position": {
-        "x": -2219.000244140625,
-        "y": 877.0000610351563
+        "x": -2219.0,
+        "y": 877.0
     }
 }
 
