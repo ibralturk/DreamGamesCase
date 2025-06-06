@@ -17,7 +17,12 @@ Rocket Trail çalışmasını görsel kaliteden ödün vermeden optimize bir şe
 Bu çalışmada özellikle birbiri ardına tetiklenen bir senaryo kurguladım. İlk adımda roketin hareketi, trail çalışması, ardından roketin geçtiği yerde bulunan match itemların roketin etkisiyle patlamalarını sağladım.
 Sonraki adımda kuleye çarptığı esnada kulede oluşacak bir patlama ve hemen ardından Tower Shield efektinin tetiklenmesini sağladım. Tower Shield tetiklendiği anda ayrıca Camera Shake kullanarak çarpma hissiyatını güçlendirmeyi amaçladım.
 Royal Kingdom evrenine teknik ve sanatsal bütünlük içinde katkı sunmayı hedefledim. Optimizasyonu görsel kaliteden ödün vermeden dengeli çözümlerle, sağlamaya çalıştım.
-Oyuncu deneyimini güçlendiren dinamik efektler tasarladım. Oldukça verimli ve keyifli bir çalışma oldu.
+
+Son olarak Art-Dev arasındaki iş akışlarını kolaylaştırmak, olası ihtiyaçları karşılayabilecek çözümler üretebildiğimi gösterebilmek için "Asset Importer Tool" yazdım.
+Kullanışlı, basit arayüzü ve assetleri topluca hedef-kaynak dosya yollarını belirterek oyun motoruna ekleyebileceğimiz bu tool ile, tek tek eklemekle kaybedilen zamanı telafi etmek istedim arkadaşlarım için.
+![image](https://github.com/user-attachments/assets/39efb311-b087-4b2a-9959-1a50dfc373c2)
+
+Oldukça verimli ve keyifli bir çalışma oldu.
 Geri bildirimlerinizi ve birlikte çalışma fırsatını heyecanla bekliyorum.
 Saygılarımla,
 İbrahim Altürk
